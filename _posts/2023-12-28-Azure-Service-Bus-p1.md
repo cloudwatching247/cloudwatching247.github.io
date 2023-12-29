@@ -1,5 +1,5 @@
 ---
-title: "Post: Standard"
+title: "Azure Service Bus - part 1"
 categories:
     - Azure
     - Service Bus
@@ -23,6 +23,7 @@ tags:
 - features: messaging, DLQ, app decoupling, load balancing, load leveling
 
 ## Comparisons
+
 | Service     | Purpose                         | Type                           | When to use                                 |
 | ----------- | ------------------------------- | ------------------------------ | ------------------------------------------- |
 | Event Grid  | Reactive programming            | Event distribution (discrete)  | React to status changes                     |
