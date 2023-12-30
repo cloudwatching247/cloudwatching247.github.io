@@ -3,11 +3,11 @@ title: "Azure Service Bus - part 1"
 categories:
     - Azure
     - Service Bus
+    - Messaging Services
 tags:
+    - azure
     - overview
-    - overview
-    - a
-    - standard
+    - messaging services
 ---
 
 ### Definitions
@@ -32,7 +32,7 @@ tags:
 
 
 ## References
-[Azure Event vs. message services](https://learn.microsoft.com/en-us/azure/service-bus-messaging/compare-messaging-services#event-vs-message-services)
-[What is Azure Service Bus?](https://learn.microsoft.com/en-us/azure/service-bus-messaging/service-bus-messaging-overview)
-[Service Bus Integrations](https://learn.microsoft.com/en-us/azure/service-bus-messaging/service-bus-messaging-overview#integration)
-[Azure messaging services comparison](https://learn.microsoft.com/en-us/azure/service-bus-messaging/compare-messaging-services#comparison-of-services)
+- [Azure Event vs. message services](https://learn.microsoft.com/en-us/azure/service-bus-messaging/compare-messaging-services#event-vs-message-services)
+- [What is Azure Service Bus?](https://learn.microsoft.com/en-us/azure/service-bus-messaging/service-bus-messaging-overview)
+- [Service Bus Integrations](https://learn.microsoft.com/en-us/azure/service-bus-messaging/service-bus-messaging-overview#integration)
+- [Azure messaging services comparison](https://learn.microsoft.com/en-us/azure/service-bus-messaging/compare-messaging-services#comparison-of-services)
