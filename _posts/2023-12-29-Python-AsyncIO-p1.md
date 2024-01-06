@@ -155,3 +155,7 @@ total_time = end - start
 print("It took {} seconds to make {} API calls".format(total_time, len(symbols)))
 print('You did it!')
 ```
+
+## References
+- [Python Asyncio, Requests, Aiohttp](https://www.youtube.com/watch?v=nFn4_nA_yk8)
+- [async-python](https://github.com/PatrickAlphaC/async-python)
