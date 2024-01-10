@@ -90,3 +90,4 @@ az containerapp job start --name "my-job" --resource-group "my-resource-group" -
 - [ACA Custom Scale Rule using Azure Service Bus](https://learn.microsoft.com/en-us/azure/container-apps/scale-app?pivots=azure-portal#example-2)
 - [KEDA Scaling Jobs](https://keda.sh/docs/2.12/concepts/scaling-jobs/)
 - [KEDA Scalers](https://keda.sh/docs/2.12/scalers/)
+- [az containerapp job CLI](https://learn.microsoft.com/en-us/cli/azure/containerapp/job?view=azure-cli-latest)
