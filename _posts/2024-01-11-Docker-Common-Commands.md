@@ -28,6 +28,13 @@ docker rmi -f $(docker images -aq)
 # remove all stopped containers
 docker container prune
 # build new image 
+docker build -f <DOCKERFILE> -t "<IMAGE_TAGS>" image/code/path
+# run docker container with env vars
+docker run -e AZURE_STORAGE_CONNECTION_STRING=$QUEUE_CONNECTION_STRING -e AZURE_STORAGE_QUEUE_NAME=shatest1505queue shatest1505acr.azurecr.io/avx_platform_ha:2.0
+# login to an ACR or other docker registry
+docker login shatest1505acr.azurecr.io -u <USERNAME> -p <PASS>
+# pull docker image from remote server
+docker pull shatest1505acr.azurecr.io/avx_platform_ha:2.0
 ```
 
 ## Dockerfile:
@@ -45,3 +52,5 @@ CMD ["-m", "app"]
 ## References
 - [docker run](https://docs.docker.com/engine/reference/commandline/run/)
 - [docker build](https://docs.docker.com/engine/reference/commandline/build/)
+- [docker login](https://docs.docker.com/engine/reference/commandline/login/)
+- [docker run env vars](https://docs.docker.com/engine/reference/commandline/run/#env)

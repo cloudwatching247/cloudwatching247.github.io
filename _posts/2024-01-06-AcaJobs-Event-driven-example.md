@@ -136,3 +136,4 @@ az group delete --resource-group $RESOURCE_GROUP
 
 ## References
 - [Deploy an event-driven job with Azure Container Apps](https://learn.microsoft.com/en-us/azure/container-apps/tutorial-event-driven-jobs)
+- [az containerapp](https://learn.microsoft.com/en-us/cli/azure/containerapp?view=azure-cli-latest)
